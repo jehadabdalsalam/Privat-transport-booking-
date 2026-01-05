@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>حجز توصيل خاص</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+    .container {
+      max-width: 400px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      width: 100%;
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 16px;
+      background: #2c7be5;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1a5dcc;
+    }
+    .note {
+      font-size: 12px;
+      color: #555;
+      margin-top: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>حجز توصيل خاص</h1>
+    <form action="https://wa.me/467XXXXXXXX" method="get" target="_blank">
+      <label>الاسم</label>
+      <input type="text" name="text" placeholder="اكتب اسمك" required /><label>رقم الهاتف</label>
+  <input type="tel" placeholder="07xxxxxxxx" required />
+
+  <label>مكان الانطلاق</label>
+  <input type="text" placeholder="مثال: ترولهتان" required />
+
+  <label>الوجهة</label>
+  <input type="text" placeholder="مثال: مطار Landvetter" required />
+
+  <label>التاريخ</label>
+  <input type="date" required />
+
+  <label>الوقت</label>
+  <input type="time" required />
+
+  <button type="submit">إرسال الحجز عبر واتساب</button>
+</form>
+<div class="note">سيتم التواصل لتأكيد السعر والموعد</div>
+
+  </div>
+</body>
+</html>
